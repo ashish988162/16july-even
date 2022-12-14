@@ -19,6 +19,9 @@ public class sendkeysAndClick {
 		CommonlyUsedMethods.implicitwait(driver, 3000);//use of implicitwait...commlyusedmethod
 		
 		
+		
+		
+		
 		//sendkeys using javascript
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebElement entername = driver.findElement(By.id("autocomplete"));

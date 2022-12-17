@@ -19,6 +19,9 @@ public class sendkeysAndClick {
 		CommonlyUsedMethods.implicitwait(driver, 3000);//use of implicitwait...commlyusedmethod
 		
 		
+		
+		
+		
 		//sendkeys using javascript
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebElement entername = driver.findElement(By.id("autocomplete"));
@@ -28,6 +31,7 @@ public class sendkeysAndClick {
 		CommonlyUsedMethods.implicitwait(driver, 3000);//use of implicitwait...commlyusedmethod
 		//click using javascript
 		WebElement clickonchechbox = driver.findElement(By.id("checkBoxOption1"));
+		js.executeScript("arguments[0].click();",clickonchechbox);
 		js.executeScript("arguments[0].click();",clickonchechbox);
 	}
 

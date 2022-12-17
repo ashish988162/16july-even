@@ -32,6 +32,7 @@ public class sendkeysAndClick {
 		//click using javascript
 		WebElement clickonchechbox = driver.findElement(By.id("checkBoxOption1"));
 		js.executeScript("arguments[0].click();",clickonchechbox);
+		js.executeScript("arguments[0].click();",clickonchechbox);
 	}
 
 }
